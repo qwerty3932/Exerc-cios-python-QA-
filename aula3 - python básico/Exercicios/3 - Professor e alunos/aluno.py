@@ -9,6 +9,14 @@ class Aluno:
         self.media = self.calcular_media_notas()
         self.aprovado = self.checar_aprovacao()
 
+    def novo_aluno(turma):
+        nome = input("Digite o nome do aluno: ")
+        nota1 = float(input("Nota 1: "))
+        nota2 = float(input("Nota 2: "))
+        nota3 = float(input("Nota 3: "))
+        novo_aluno = Aluno(nome, nota1, nota2, nota3)
+        turma.registrar_aluno(novo_aluno)
+
     # calcule a média aritmética das 3 notas de cada alunos
     def calcular_media_notas(self):
         m = float(0.0) # media final

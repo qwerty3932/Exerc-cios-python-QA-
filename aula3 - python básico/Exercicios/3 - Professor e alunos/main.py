@@ -8,14 +8,6 @@
 from turma import Turma
 from aluno import Aluno
 
-def novo_aluno(turma):
-    nome = input("Digite o nome do aluno: ")
-    nota1 = float(input("Nota 1: "))
-    nota2 = float(input("Nota 2: "))
-    nota3 = float(input("Nota 3: "))
-    novo_aluno = Aluno(nome, nota1, nota2, nota3)
-    turma.registrar_aluno(novo_aluno)
-
 def main():
     turma1 = Turma()
 
@@ -33,7 +25,7 @@ def main():
         "\n4 - Porcentagem de aprovados e reprovados\n5 - sair")
         x = int(input()) 
         if x == 1:
-            novo_aluno(turma1)
+            Aluno.novo_aluno(turma1)
         elif x == 2:
             Turma.listar_turma(turma1)
         elif x == 3:
