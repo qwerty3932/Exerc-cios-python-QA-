@@ -11,4 +11,3 @@ def main():
     y = int(input("Digite a quantidade de vezes que será repetido: "))
     print(multi(x,y))
 
-main()

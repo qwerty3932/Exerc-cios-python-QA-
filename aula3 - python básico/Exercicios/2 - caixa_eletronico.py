@@ -11,11 +11,11 @@ def sacar(saldo):
 
 def depositar(saldo):
     x = int(input("Digite a quantidade que deseja depositar: "))
-    saldo += x
     if x < 0:
         print("Valor negativo, cancelando deposito")
         return saldo
     else:
+        saldo += x
         print("Saldo atual: ",saldo)
         return saldo
 
