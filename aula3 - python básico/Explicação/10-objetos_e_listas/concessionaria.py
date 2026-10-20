@@ -44,7 +44,7 @@ class Concessionaria:
     def encontrar_carro_por_modelo(self, modelo):
         for carro in self.estoque:
             if carro.modelo == modelo:
-                print(f"Carro em estoque")
+                print("Carro em estoque")
                 return carro.marca, carro.modelo, carro.ano, carro.preco, carro.cor, carro.placa
         print(f"Não foi encontrado nenhum carro do modelo {modelo} em estoque.")
         return None
@@ -58,7 +58,7 @@ class Concessionaria:
     def encontrar_funcionario_por_nome(self, nome):
         for funcionario in self.vendedores:
             if funcionario.nome == nome:
-                print(f"Funcionario encontrado!")
-                print(f"Nome    | Telefone    | Idade    |    Salario")
+                print("Funcionario encontrado!")
+                print("Nome    | Telefone    | Idade    |    Salario")
                 return funcionario.nome, funcionario.cpf, funcionario.idade, funcionario.salario
         print(f"Não foi encontrado nenhum vendedor com o nome {nome}.")

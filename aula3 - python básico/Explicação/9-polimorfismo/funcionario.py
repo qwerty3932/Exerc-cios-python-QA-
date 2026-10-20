@@ -10,6 +10,7 @@
 
 from pessoa import Pessoa
 
+
 class Funcionario(Pessoa):
 
     def __init__(self, nome, endereco,  cargo, matricula, senha, salario):

@@ -2,8 +2,7 @@ from carro import Carro
 from cliente import Cliente
 from concessionaria import Concessionaria
 from funcionario import Funcionario
-from pessoa import Pessoa
-from veiculo import Veiculo
+
 
 def main():
     # Criando um cliente

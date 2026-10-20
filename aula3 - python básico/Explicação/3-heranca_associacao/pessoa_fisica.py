@@ -1,5 +1,6 @@
 from pessoa import Pessoa
 
+
 class PessoaFisica(Pessoa):
 
     def __init__(self, nome, endereco, cpf, data_nascimento):

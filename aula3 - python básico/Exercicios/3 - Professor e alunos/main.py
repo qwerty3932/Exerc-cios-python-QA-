@@ -5,8 +5,9 @@
 # apresenta média de cada aluno
 # apresente a média da turma inteira
 # a porcentagem de alunos aprovados e reprovados.
-from turma import Turma
 from aluno import Aluno
+from turma import Turma
+
 
 def main():
     turma1 = Turma()

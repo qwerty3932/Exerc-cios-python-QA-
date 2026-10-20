@@ -1,6 +1,3 @@
-from pessoa import Pessoa
-from agencia import Agencia
-from categoria import Categoria
 
 class ContaCorrente:
     

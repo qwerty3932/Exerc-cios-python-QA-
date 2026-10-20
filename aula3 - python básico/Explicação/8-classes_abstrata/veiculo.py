@@ -10,7 +10,8 @@
 ##########################################
 
 from abc import ABC, abstractmethod
- 
+
+
 class Veiculo(ABC):
 
     @abstractmethod

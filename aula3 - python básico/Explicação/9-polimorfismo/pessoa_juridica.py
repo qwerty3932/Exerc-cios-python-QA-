@@ -1,5 +1,6 @@
 from pessoa import Pessoa
 
+
 class PessoaJuridica(Pessoa):
 
     def __init__(self, nome, endereco,  cnpj , ano_fundacao):

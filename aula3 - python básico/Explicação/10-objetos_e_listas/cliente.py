@@ -1,5 +1,6 @@
 from pessoa import Pessoa
 
+
 class Cliente(Pessoa):
     def __init__(self, nome, cpf, idade, endereco, telefone):
         super().__init__(nome, cpf, idade)

@@ -1,9 +1,8 @@
-from pessoa_fisica import PessoaFisica
-from pessoa_juridica import PessoaJuridica
-from pessoa import Pessoa
+from agencia import Agencia
 from categoria import Categoria
 from conta_corrente import ContaCorrente
-from agencia import Agencia
+from pessoa import Pessoa
+
 
 def main():
     ag1 = Agencia('0001', '(51)8888', 'Rua tal 1',)

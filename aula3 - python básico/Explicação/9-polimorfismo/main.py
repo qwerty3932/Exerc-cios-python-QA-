@@ -1,5 +1,6 @@
-from gerente import Gerente
 from funcionario import Funcionario
+from gerente import Gerente
+
 
 def main():
     f1 = Funcionario('Antonio','Rua Tal 1','Professor',1233,'Senha123456',1000)

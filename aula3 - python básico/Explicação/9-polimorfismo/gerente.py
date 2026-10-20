@@ -1,5 +1,6 @@
 from funcionario import Funcionario
 
+
 class Gerente(Funcionario):
 
     def __init__(self, nome, endereco, cargo, matricula, senha, salario, quantidade_funcionarios,atribuicao_funcao):

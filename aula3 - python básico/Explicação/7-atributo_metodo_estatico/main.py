@@ -1,8 +1,7 @@
-from pessoa_fisica import PessoaFisica
-from pessoa_juridica import PessoaJuridica
+from agencia import Agencia
 from categoria import Categoria
 from conta_corrente import ContaCorrente
-from agencia import Agencia
+from pessoa_fisica import PessoaFisica
 
 
 def main():

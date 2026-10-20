@@ -1,5 +1,5 @@
-maior = int(0)
-menor = int(0)
+maior = 0
+menor = 0
 i = 0
 x = 5
 while i < x:

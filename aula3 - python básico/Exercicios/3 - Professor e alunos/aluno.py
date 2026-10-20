@@ -19,14 +19,10 @@ class Aluno:
 
     # calcule a média aritmética das 3 notas de cada alunos
     def calcular_media_notas(self):
-        m = float(0.0) # media final
+        m = 0.0 # media final
         m = (self.nota1 + self.nota2 + self.nota3)/3
         return m
 
     # imprime se aprovou ou reprovou - nota de aprovação = 7
     def checar_aprovacao(self):
-        if self.media >= 7.0:
-            return True
-        else:
-            return False
-    
+        return self.media >= 7.0

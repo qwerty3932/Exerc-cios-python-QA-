@@ -20,7 +20,7 @@ def depositar(saldo):
         return saldo
 
 def main():
-    saldo = int(0)
+    saldo = 0
     while True:
         print("1 - Checar Saldo\n2 - Saque\n3 - Depósito\n4 - Sair")
         x = int(input()) 
